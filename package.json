@@ -1,6 +1,6 @@
 {
   "name": "vnode-tls",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "vnode-tls 提供了与vue相关的实用工具，比如：操作 虚拟 Dom、VNode 和 Vue实例 的工具",
   "main": "dist/vnode-tls.cjs.js",
   "module": "dist/vnode-tls.esm.js",
@@ -42,7 +42,7 @@
     "@rollup/plugin-commonjs": "^11.1.0",
     "@rollup/plugin-node-resolve": "^7.1.3",
     "eslint": "^7.0.0",
-    "package-tls": "^1.0.1",
+    "package-tls": "^1.0.2",
     "rollup": "^2.7.2"
   },
   "dependencies": {

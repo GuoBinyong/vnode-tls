@@ -114,7 +114,7 @@ export default [
 	*/
 	{
 		...shareConf,
-		external:undefined,   //不移除任何依赖
+        external:getDependencieNames(pkg,"peerDependencies"),   //只移除 peerDependencies 中的依赖
 		output: {
 			// 如果 pkg.browser 是字符串类型，则 file 为 pkg.browser，否则为 `<包名>.umd.js`
 			file: typeof pkg.browser === "string" ? pkg.browser : `dist/${removeScope(pkg.name)}.umd.js`,
